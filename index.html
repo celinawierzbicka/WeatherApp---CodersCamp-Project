@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fontello/css/fontello.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+        <!-- <div class="search text-center">
+            <input type="text" class = "form-control" placeholder="Enter City Name" id="search-txt">
+            <a id="search-btn" href="#"><i class="icon-search text-white h4"></i></a>
+        </div> -->
+        <div class="input-group mb-3 mt-3">
+                <input type="text" class="form-control" placeholder="Enter city name to check the current weather" aria-label="City name" aria-describedby="basic-addon2" id="search-txt">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button"><a id="search-btn" href="#"><i class="icon-search text-white h6"></i></a></button>
+                </div>
+         </div>
+
+        <div class="weather-forecast text-center">
+            <div class="city-name" id="name">
+            </div>
+
+            <div class="date" id="date-now">
+            </div>
+            <div class="weather-icon">
+                    <img src="" alt="" id="icon">
+                 </div>
+            <div class="temperature font-weight-bold" id="temp">
+            </div>
+            
+            <div class="description" id="describe">
+            </div>
+        </div>
+   </div>
+   <script  src="js/index.js"></script>
+</body>
+</html>
